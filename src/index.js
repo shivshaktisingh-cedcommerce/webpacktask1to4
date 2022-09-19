@@ -1,1 +1,3 @@
-console.warn("Hello world")
+import other from "./other"
+import "./styles/main.css"
+console.warn(other())
